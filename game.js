@@ -1,0 +1,1 @@
+const cardsColor = ["red", "green", "blue", "yellow", "orange", "lightblue", "cadetblue", "lightgreen", "red", "green", "blue", "yellow", "orange", "lightblue", "cadetblue", "lightgreen, lightgoldenrodyellow];
