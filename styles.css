@@ -1,17 +1,105 @@
     * {
-    margin 0;
-    padding 0;
-    box-sizing: border-box;
-}
-
-body {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-div {
-    flex-basis: 15%;
-    flex-grow: 1;
-    height: 33.33vh;
-    background-color: black;
-    border: solid 4px white;
+        margin 0;
+        padding 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    div {
+        flex-basis: 15%;
+        flex-grow: 1;
+        height: 33.33vh;
+        background-color: black;
+        border: solid 4px white;
+    }
+    
+    @media(orientation: portrait) {
+        div {
+            flex-basis: 30%;
+            height: 16.66vh;
+        }
+    }
+    
+    .red {
+        background-color: red;
+    }
+    
+    .red {
+        background-color: red;
+    }
+    
+    .green {
+        background-color: green;
+    }
+    
+    .green {
+        background-color: green;
+    }
+    
+    .blue {
+        background-color: blue;
+    }
+    
+    .blue {
+        background-color: blue;
+    }
+    
+    .yellow {
+        background-color: yellow;
+    }
+    
+    .yellow {
+        background-color: yellow;
+    }
+    
+    .orange {
+        background-color: orange;
+    }
+    
+    .orange {
+        background-color: orange;
+    }
+    
+    .lightblue {
+        background-color: lightblue;
+    }
+    
+    .lightblue {
+        background-color: lightblue;
+    }
+    
+    .cadetblue {
+        background-color: cadetblue;
+    }
+    
+    .cadetblue {
+        background-color: cadetblue
+    }
+    
+    .lightgreen {
+        background-color: lightgreen;
+    }
+    
+    .lightgreen {
+        background-color: lightgreen;
+    }
+    
+    .lighgoldenrodyellow {
+        background-color: lightgoldenrodyellow;
+    }
+    
+    .lightgoldenrodyellow {
+        background-color: lightgoldenrodyellow;
+    }
+    
+    .off {
+        background-color: gray;
+    }
+    
+    .hidden {
+        background-color: black;
+    }
